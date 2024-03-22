@@ -54,8 +54,8 @@ img {display:block; max-width:100%;}
 :root {
 	--black: #000;
 	--white: #fff;
-	--main-color: #cba03d;
-	--main-btn-color: #cba03d;
+	--main-color: #2077a7;
+	--main-btn-color: rgb(61, 172, 203);
 	--blue:#2077a7;
 	--main-font:'Montserrat';
 }
@@ -170,7 +170,13 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 
 .section {padding:max(7vw, 40px) 0;}
 .section-title {margin-bottom:1.5em;}
-
+.section-title {
+	color:#2077a7;
+}
+.h4 {
+	color:#2077a7;
+	font-weight: 500;
+}
 .input-wrapper input, .input-wrapper textarea {
 	display:block;
 	font-size: 1.6rem;
@@ -358,7 +364,7 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 .decor-title {
 	top:0;
 	right:20px;
-	color:rgba(0,0,0,0.07);
+	color:rgba(118, 48, 48, 0.07);
 	font-size: 4vw;
 	font-weight: bold;
 }
@@ -366,7 +372,7 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 	width: 7rem;
 }
 .about-item p {
-	color:gray;
+	color:rgb(81, 80, 80)
 }
 .about-img img {
 	width: 100%;
@@ -376,7 +382,7 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 }
 .service-card {
 
-	background: rgba(255,255,255,0.6);
+	background: rgba(255, 255, 255, 0.294);
 	padding:5rem 3rem;
 	height: 100%;
 	border-radius: 16px;
