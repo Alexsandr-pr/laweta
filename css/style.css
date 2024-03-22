@@ -361,6 +361,13 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 .btn-row .btn:not(:last-child) {
 	margin-right:3rem;
 }
+@media (max-width: 767.98px) {
+	.btn-row {
+		justify-content: center;
+		display: flex;
+		align-items: center;
+	}
+}
 .decor-title {
 	top:0;
 	right:20px;
