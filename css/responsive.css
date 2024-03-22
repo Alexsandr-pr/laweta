@@ -1,0 +1,137 @@
+/* ===== RESPONSIVE STYLE ===== */
+
+@media (max-width:1600px) {
+	
+}
+
+@media (max-width:1440px) {
+	html {font-size: 0.6vw}
+	.container {max-width: 1240px;}
+}
+
+@media (max-width:1366px) {
+	
+}
+
+@media (max-width:1280px) {
+	
+}
+
+@media (max-width:1024px) {
+	html {font-size: 0.85vw;}
+	.tablet-col-2 {grid-template-columns: repeat(2, 1fr);}
+	.tablet-col-3 {grid-template-columns: repeat(3, 1fr);}
+
+	.first-screen {
+		padding: 15rem 0;
+	}
+}
+
+@media (max-width:768px) {
+	html {font-size: 10px;}
+	p, ul li, ol li, a, .text {font-size: 15px;}
+	
+	.sm-hide {display:none;}
+	.sm-show {display:block;}
+	.sm-show.flex {display:flex;}
+
+	.popup-window, .thanks-window {width: calc(100% - 40px);}
+
+	.sm-col-1 {grid-template-columns: repeat(1, 1fr);}
+	.sm-col-2 {grid-template-columns: repeat(2, 1fr);}
+	.sm-col-3 {grid-template-columns: repeat(3, 1fr);}
+	.sm-col-1 .item {grid-column: auto; grid-row: auto;}
+
+	.mw-100 {width:100%;}
+
+	.main-title {
+		font-size: 6rem;
+	}
+	.fs-content p {
+		width: 100%;
+	}
+	.about-wrapper {
+		gap:30px;
+	}
+	.about-item p br {
+		display: none;
+	}
+	.about-img {
+		width: 60%;
+		margin:0 auto;
+	}
+	
+}
+
+@media (max-width:767px) {	
+	.mobile-col-1 {grid-template-columns: repeat(1, 1fr);}
+	.mobile-col-2 {grid-template-columns: repeat(2, 1fr);}
+	.mobile-col-1 .item {grid-column: auto; grid-row: auto;}
+
+	.logo {
+		font-size: 2rem;
+	}
+	.header .contact-item {
+		font-size: 16px;
+	}
+	.main-title {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.fs-content p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.btn-row .btn:not(:last-child) {
+		margin-right:0;
+	}
+	.fs-content .btn {
+		margin:0 0 20px;
+	}
+	.first-screen {
+		padding: 9rem 0;
+	}
+	.about-icon img {
+		width: 5rem;
+		margin: 0 auto;
+	}
+	.about-item .h4, .about-item h4 {
+		font-size: 16px;
+		text-align: center;
+	}
+	.about-item p {
+		text-align: center;
+	}
+	.about-img {
+		width: 100%;
+	}
+	.service-card {
+		padding: 3rem 2rem;
+	}
+	.service-img {
+		height: 14rem;
+	}
+	.btn {
+		padding: 1em 3em;
+	}
+	.add-serv-img {
+		height: 7rem;
+	}
+	.footer p {
+		margin: 0 auto 1em
+	}
+	.section-title {
+		text-align: center;
+	}
+	.decor-title {
+		font-size: 7vw;
+	}
+	.service-card .btn-container {
+		margin-top:20px;
+	}
+
+}
+
+@media (max-width:480px) {	
+	.btn {width:100%;}
+}
