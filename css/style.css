@@ -52,6 +52,7 @@ img {display:block; max-width:100%;}
 /* ===== Theme default ===== */
 /* --main-color: #ffb300; */
 :root {
+	
 	--black: #000;
 	--white: #fff;
 	--main-color: #2077a7;
@@ -420,5 +421,15 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 .footer p {
 	margin-bottom:0;
 	color:#fff;
+}
+.footer-clas {
+	display: flex;
+	align-items: center;
+}
+@media(max-width:487.98px){
+	.footer-clas {
+		flex-direction: column;
+		gap: 10px;
+	}
 }
 /* ===== Custom Styles END =====*/
