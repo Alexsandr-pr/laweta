@@ -422,12 +422,9 @@ table th {text-transform: uppercase;background: rgba(0, 0, 0, 0.12);font-weight:
 	margin-bottom:0;
 	color:#fff;
 }
-.footer-clas {
-	display: flex;
-	align-items: center;
-}
+
 @media(max-width:487.98px){
-	.footer-clas {
+	.footer-classs {
 		flex-direction: column;
 		gap: 10px;
 	}
